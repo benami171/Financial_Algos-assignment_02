@@ -133,13 +133,6 @@ Allocation Table:
 +----------+------------+------------+------------+------------+---------------+
 ```
 
-## Repository Structure
-
-```
-assignment_2/
-├── question_3.py
-└── README.md
-```
 
 ## Description
 
