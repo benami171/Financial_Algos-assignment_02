@@ -4,18 +4,6 @@ from tabulate import tabulate  # make sure to install via pip if not already ins
 
 
 def egalitarian_division(valuations):
-    """
-    Compute an egalitarian division of resources.
-    
-    Parameters:
-    valuations: numpy array where valuations[i, j] is the value 
-                that person i assigns to resource j.
-                - i ranges from 0..(n_people-1)
-                - j ranges from 0..(n_resources-1)
-    
-    Returns:
-    A string describing the allocation and each person's utility.
-    """
     # valuations.shape -> (n_people, n_resources)
     n_people, m_resources = valuations.shape
     
