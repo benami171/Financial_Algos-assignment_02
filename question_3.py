@@ -96,7 +96,6 @@ if __name__ == "__main__":
     print(valuations)
     print("\n" + egalitarian_division(valuations))
 
-    
     # Example #2: 4 people, 3 resources
     valuations2 = np.array([
         [9, 20, 11],   # Person 1's valuations
@@ -115,7 +114,6 @@ if __name__ == "__main__":
         [20, 10, 30],  # Person 2's valuations
         [25, 40, 5],   # Person 3's valuations
     ])
-
     
     print("\nValuation matrix #3:")
     print(valuations3)
@@ -132,3 +130,39 @@ if __name__ == "__main__":
     print("\nValuation matrix #4:")
     print(valuations4)
     print("\n" + egalitarian_division(valuations4))
+    
+    
+    # Example #5: 2 people, 4 resources
+    valuations5 = np.array([
+        [12, 7, 3, 15],   # Person 1's valuations
+        [4, 17, 10, 6]    # Person 2's valuations
+    ])
+    
+    print("\nValuation matrix #5:")
+    print(valuations5)
+    print("\n" + egalitarian_division(valuations5))
+    
+    
+    # Example #6: 3 people, 5 resources
+    valuations6 = np.array([
+        [20, 10, 5, 15, 30],   # Person 1's valuations
+        [15, 25, 10, 5, 20],   # Person 2's valuations
+        [30, 12, 18, 22, 8]    # Person 3's valuations
+    ])
+    
+    print("\nValuation matrix #6:")
+    print(valuations6)
+    print("\n" + egalitarian_division(valuations6))
+    
+    
+    # Example #7: 4 people, 4 resources
+    valuations7 = np.array([
+        [10, 20, 30, 40],   # Person 1's valuations
+        [40, 30, 20, 10],   # Person 2's valuations
+        [25, 35, 30, 20],   # Person 3's valuations
+        [15, 25, 35, 45]    # Person 4's valuations
+    ])
+    
+    print("\nValuation matrix #7:")
+    print(valuations7)
+    print("\n" + egalitarian_division(valuations7))
