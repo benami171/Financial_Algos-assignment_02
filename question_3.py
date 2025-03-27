@@ -133,9 +133,9 @@ if __name__ == "__main__":
     
     # Example #6: 3 people, 5 resources
     valuations6 = np.array([
-        [20, 10, 5, 15, 30],   # Person 1's valuations
-        [15, 25, 10, 5, 20],   # Person 2's valuations
-        [30, 12, 18, 22, 8]    # Person 3's valuations
+        [0, 0, 0, 0, -30],   # Person 1's valuations
+        [15, -25, 0, 5, 20],   # Person 2's valuations
+        [-30, 12, 18, 22, 8]    # Person 3's valuations
     ])
     
     print("\nValuation matrix #6:")
